@@ -17,4 +17,5 @@ for (i = 0; i < surname.length; i++) {
 console.log(surname.sort());
 
 //indichiamo la posizione umana del cognome inserito
-console.log(surname.indexOf(inputSurname.toLowerCase()) + 1);
+var position = surname.indexOf(inputSurname) + 1;
+console.log("La posizione del cognome inserito è la numero: " + position);
